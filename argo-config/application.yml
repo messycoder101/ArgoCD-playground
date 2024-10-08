@@ -6,8 +6,10 @@ metadata:
 spec:
   project: default
   source:
+    # Your git repo below
     repoURL: https://github.com/messycoder101/ArgoCD-playground.git
     targetRevision: HEAD
+    # path to kubernetes manifests below
     path: k8s
   destination:
     server: https://kubernetes.default.svc
