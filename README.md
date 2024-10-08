@@ -24,4 +24,6 @@ copy this password<br>
 
 Login into the ArgoCD UI using following credentials:<br>
 admin<br>
-password from previous step
+password from previous step<br>
+
+Configure as specified under ***argo-config/application.yml***
